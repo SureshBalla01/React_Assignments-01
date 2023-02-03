@@ -10,13 +10,14 @@ const Navbar = () => {
                 <Link to="/chat"><i class="large black facebook messenger icon "/></Link>
                 <Link to="/upload"><i class="large black upload icon"/></Link>
                 <Link to="/profile"><i class=""/></Link>
-                <button className='ui button'>
-                    <Link to="/signIn"><i class="sign in icon"/>SIGN IN</Link>
+                <button className='ui blue button'>
+                    <Link to="/signIn" className='signinBtn'><i class="sign in icon"/>SIGN IN</Link>
                 </button>
 
-                <button className='ui button'>
-                    <Link to="/signUp"><i class="person add out lined icon"/>SIGN UP</Link>
+                <button className='ui red button'>
+                    <Link to="/signUp" className='signupBtn'><i class="user plus icon"/>SIGN UP</Link>
                 </button>
+
             </div>
         </nav>
     )

@@ -1,5 +1,9 @@
 
+.signinBtn, .signupBtn {
+    color: white;
+
+}
 i {
-    padding-left: 35px;
+    padding-left: 15px;
     
 }
